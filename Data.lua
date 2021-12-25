@@ -371,7 +371,7 @@ local function OnDataAvailable(bag, slot, guid)
             self.quality = 8
             if not guid then
                 self.level = C_MythicPlus.GetOwnedKeystoneLevel()
-                self.name = string.format(Sorted.Localize("ITEM_MYTHIC_KEYSTONE"), C_ChallengeMode.GetMapUIInfo(C_MythicPlus.GetOwnedKeystoneChallengeMapID()).." ("..self.level..")")
+                self.name = "Mythic Keystone" --string.format(Sorted.Localize("ITEM_MYTHIC_KEYSTONE"), C_ChallengeMode.GetMapUIInfo(C_MythicPlus.GetOwnedKeystoneChallengeMapID()).." ("..self.level..")")
             else
                 self.level = 1
                 self.name = Sorted.Localize("ITEM_UNKNOWN_KEYSTONE")
