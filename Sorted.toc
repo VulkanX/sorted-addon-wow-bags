@@ -9,8 +9,8 @@
 ## Notes-esES: Interfaz de bolsa moderna con búsqueda eficiente y filtros.
 ## Notes-esMX: Interfaz de bolsa moderna con búsqueda eficiente y filtros.
 ## Notes-ptBR: Uma bolsa com interface moderana, com funções eficientes de filtros e procura.
-## Version: 1.2.28
-## Author: Daft Vader
+## Version: 1.2.29
+## Author: Daft Vader/VulkanX
 ## SavedVariables: Sorted_Data, Sorted_enabledColumns, Sorted_settingsProfiles, Sorted_sortButtonOrder
 ## DefaultState: enabled
 
